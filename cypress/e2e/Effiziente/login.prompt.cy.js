@@ -4,7 +4,7 @@ describe("test login", function () {
       cy.prompt(
         [
           'visit https://effizientedemo.azurewebsites.net',
-          'type "Demo" in the copmany field',
+          'type "Demo" in the company field',
           'type "Demo" in the user field',
           'type {{password}} in the password field',
           'click the login button',
