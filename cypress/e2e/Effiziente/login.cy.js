@@ -1,10 +1,6 @@
 describe("test login", function () {
     it("Login demo", function () {
 
-        cy.on("uncaught:exception", (err, runnable) => {
-            return false;
-        });
-
         cy.visit("https://effizientedemo.azurewebsites.net");
 
         // Taking a screenshot
